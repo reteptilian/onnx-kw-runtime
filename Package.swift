@@ -15,12 +15,12 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "OnnxRuntime",
-            url: "https://github.com/reteptilian/onnx-kw-runtime/releases/download/1.0.2/onnxruntime.xcframework.zip",
+            url: "https://github.com/reteptilian/onnx-kw-runtime/releases/download/1.0.3/onnxruntime.xcframework.zip",
             checksum: "727c216d417b5ae1fba0e1a4b562e09e7b02f1989fdeab78267ea3bfa1ee7978"
         ),
         .binaryTarget(
             name: "SherpaOnnx",
-            url: "https://github.com/reteptilian/onnx-kw-runtime/releases/download/1.0.2/sherpa-onnx.xcframework.zip",
+            url: "https://github.com/reteptilian/onnx-kw-runtime/releases/download/1.0.3/sherpa-onnx.xcframework.zip",
             checksum: "022e1c837b2b44707c76152c6ccc35232d85e60eb931a4f830903057c1522cae"
         ),
         .target(
