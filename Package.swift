@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "MLRuntime",
+    name: "OnnxKWRuntime",
     platforms: [
         .iOS(.v13)
     ],
