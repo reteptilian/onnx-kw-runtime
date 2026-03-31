@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "OnnxKWRuntime",
-            targets: ["OnnxKWRuntime"]
+            targets: ["OnnxRuntime", "SherpaOnnx"]
         )
     ],
     targets: [
